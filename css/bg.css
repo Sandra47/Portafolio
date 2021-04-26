@@ -1,0 +1,56 @@
+/* 
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- background settings for section
+	- media query
+/*
+
+
+/* background settings for section */
+
+#section-hero-2 {background:url(../images/background/3.jpg) fixed;}
+#section-services.index-2 {background:url(../images/background/6a.jpg) fixed;}
+#section-experiences.index-2 {background:url(../images/background/6a.jpg) fixed;}
+#section-contact.index-2{background:url(../images/background/6a.jpg);}
+
+
+/* media query */
+@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#subheader{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
+#section-portfolio  {
+	background-color: #302f2f !important;
+}
+#section-contact{
+	background-color: #302f2f !important;
+}
+#section-about{
+	background-color: #302f2f !important;
+}
